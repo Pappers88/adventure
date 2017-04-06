@@ -14,6 +14,7 @@ while True:
     print 'you are at the %s' % location
 
     valid_directions = {}
+
     for k, v in directions.iteritems():
         possible_position = (position[0] + v[0], position[1] + v[1])
         possible_location = locations.get(possible_position)
